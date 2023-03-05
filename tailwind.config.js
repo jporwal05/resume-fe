@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bg-off-white': '#f9f9f9',
+        'off-white': '#f9f9f9',
       },
     },
     fontFamily: {
