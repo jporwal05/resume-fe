@@ -72,7 +72,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-1 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Trainee Software Engineer — HSBC</p>
+                <p class="text-xl mt-2">Trainee Software Engineer — HSBC</p>
               </div>
               <div>
                 <p class="text-sm text-center">Aug 2012 — Mar 2013</p>
@@ -86,7 +86,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-2 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Software Engineer — HSBC</p>
+                <p class="text-xl mt-2">Software Engineer — HSBC</p>
               </div>
               <div>
                 <p class="text-sm text-center">Apr 2013 — Oct 2015</p>
@@ -101,7 +101,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-2 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Senior Software Engineer — HSBC</p>
+                <p class="text-xl mt-2">Senior Software Engineer — HSBC</p>
               </div>
               <div>
                 <p class="text-sm text-center">Nov 2015 – Mar 2018</p>
@@ -117,7 +117,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-2 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Senior Software Analyst — Barclays</p>
+                <p class="text-xl mt-2">Senior Software Analyst — Barclays</p>
               </div>
               <div>
                 <p class="text-sm text-center">Apr 2018 – May 2019</p>
@@ -133,7 +133,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-2 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Technical Lead — Worldpay from FIS</p>
+                <p class="text-xl mt-2">Technical Lead — Worldpay from FIS</p>
               </div>
               <div>
                 <p class="text-sm text-center">Jun 2019 – May 2021</p>
@@ -149,7 +149,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-2 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Staff Engineer — Nagarro</p>
+                <p class="text-xl mt-2">Staff Engineer — Nagarro</p>
               </div>
               <div>
                 <p class="text-sm text-center">May 2021 - May 2022</p>
@@ -166,7 +166,7 @@
           <div>
             <div class="grid grid-flow-row grid-cols-2 mt-2 font-semibold text-gray-700 items-center">
               <div>
-                <p class="text-xl">Sr. Consultant, Developer — ThoughtWorks</p>
+                <p class="text-xl mt-2">Sr. Consultant, Developer — ThoughtWorks</p>
               </div>
               <div>
                 <p class="text-sm text-center">May 2022 - Present</p>
