@@ -1,7 +1,7 @@
 <template>
   <div class="m-6 font-mono grid grid-flow-col grid-rows-1 justify-items-center">
     <div class="max-w-4xl">
-      <div class="rounded overflow-hidden shadow-sm border-blue-500 border p-4 bg-orange-50">
+      <div class="rounded overflow-hidden shadow-lg border-blue-500 border p-4 bg-orange-50">
         <div class="grid grid-flow-col grid-rows-1">
           <div class="flex flex-col">
             <p class="text-6xl font-extrabold">Jayant Porwal</p>
@@ -14,17 +14,27 @@
             <p class="text-lg text-gray-600">&nbsp;&nbsp;</p>
             <a
               class="text-sm font-semibold underline 
-                            hover:underline-offset-2 hover:decoration-blue-500"
+                            hover:underline-offset-2 hover:decoration-blue-500 
+                            transition delay-150"
               href="https://www.linkedin.com/in/jporwal05/"
             >LinkedIn</a>
             <p class="text-lg text-gray-600">&nbsp;&nbsp;</p>
             <a
               class="text-sm font-semibold underline 
-                            hover:underline-offset-2 hover:decoration-blue-500"
+                            hover:underline-offset-2 hover:decoration-blue-500 
+                            transition delay-150"
               href="https://medium.com/@jayantporwal05"
             >Medium</a>
             <p class="text-lg text-gray-600">&nbsp;&nbsp;</p>
             <p class="text-sm font-semibold">+91-8698033662</p>
+          </div>
+        </div>
+        <div class="grid grid-flow-col grid-rows-1 mt-2">
+          <div class="flex flex-row items-center flex-wrap">
+            <p class="text-sm font-semibold border border-red-500 rounded px-2 hover:bg-red-300 transition delay-150 animate-bounce">Remote</p>
+            <p class="text-sm font-semibold">&nbsp;or&nbsp;</p>
+            <p class="text-sm font-semibold border border-red-500 rounded px-2 hover:bg-red-300 transition delay-150 animate-bounce">Indore, India</p>
+            <p class="text-sm font-semibold">&nbsp;only&nbsp;</p>
           </div>
         </div>
       </div>
