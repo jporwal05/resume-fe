@@ -8,7 +8,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      'mono': ['"Courier Prime"', 'monospace'],
+      'mono': ['"Roboto Mono"', 'monospace'],
     },
   },
   plugins: [],
