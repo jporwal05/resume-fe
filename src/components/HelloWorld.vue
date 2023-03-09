@@ -113,7 +113,7 @@
               </div>
             </div>
             <div>
-              <p class="text-xl text-justify">Developed a multithreaded xml comparison tool to compare trade xml(s) in
+              <p class="text-xl font-medium text-justify">Developed a multithreaded xml comparison tool to compare trade xml(s) in
                 bulk. Scaled the already developed reporting framework to make room for
                 more regulations and requirements.</p>
             </div>
