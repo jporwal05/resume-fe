@@ -4,7 +4,17 @@
       <div class="rounded overflow-hidden shadow-lg border-blue-500 border p-4 bg-orange-50">
         <div class="grid grid-flow-col grid-rows-1">
           <div class="flex flex-col">
-            <p class="text-6xl font-extrabold">Jayant Porwal</p>
+            <div class="flex flex-row">
+              <p class="text-6xl font-extrabold">
+                <img
+                  class="inline-block rounded mb-3"
+                  style="font-size: 1em;"
+                  src="../assets/my_photo.jpg"
+                  alt="photo"
+                >
+                Jayant Porwal
+              </p>
+            </div>
             <p class="text-lg font-semibold">Sr. Consultant, Developer at ThoughtWorks</p>
           </div>
         </div>
