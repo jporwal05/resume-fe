@@ -3,23 +3,21 @@
     <div class="max-w-4xl">
       <div class="rounded overflow-hidden shadow-lg border-blue-500 border p-4 bg-orange-50">
         <div class="grid grid-flow-col grid-rows-1">
-          <div class="flex flex-col">
-            <div class="flex flex-row">
-              <p class="text-6xl font-extrabold">
-                <img
-                  class="inline-block rounded mb-3"
-                  style="font-size: 1em;"
-                  src="../assets/my_photo.jpg"
-                  alt="photo"
-                >
-                Jayant Porwal
-              </p>
-            </div>
+          <div class="flex flex-col items-center text-center">
+            <p>
+              <img
+                class="rounded mb-3"
+                style="font-size: 1em;"
+                src="../assets/my_photo.jpg"
+                alt="photo"
+              >
+            </p>
+            <p class="text-6xl font-extrabold">Jayant Porwal</p>
             <p class="text-lg font-semibold">Sr. Consultant, Developer at ThoughtWorks</p>
           </div>
         </div>
         <div class="grid grid-flow-col grid-rows-1 mt-1">
-          <div class="flex flex-row items-center flex-wrap">
+          <div class="flex flex-row justify-center flex-wrap text-center">
             <p class="text-sm font-semibold">jayantporwal05@gmail.com</p>
             <p class="text-lg">&nbsp;&nbsp;</p>
             <a
@@ -40,7 +38,7 @@
           </div>
         </div>
         <div class="grid grid-flow-col grid-rows-1 mt-2">
-          <div class="flex flex-row items-center flex-wrap">
+          <div class="flex flex-row justify-center flex-wrap">
             <p class="text-sm font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150 animate-bounce">Remote</p>
             <p class="text-sm font-semibold">&nbsp;or&nbsp;</p>
             <p class="text-sm font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150 animate-bounce">Indore, India</p>
