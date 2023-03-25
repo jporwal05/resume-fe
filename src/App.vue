@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld />
+  <ResumeComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import '@/assets/tailwind.css';
+import ResumeComponent from "./components/ResumeComponent.vue";
+import "@/assets/tailwind.css";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ResumeComponent,
+  },
+};
 </script>

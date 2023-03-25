@@ -200,29 +200,29 @@
         </div>
       </div>
       <div class="grid grid-flow-col grid-rows-1 p-4">
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center text-center">
           <div>
             <p class="text-4xl font-bold mt-4">Education</p>
           </div>
           <div>
-            <div class="grid grid-flow-row grid-cols-2 mt-1 font-semibold text-blue-500 items-center">
+            <div class="mt-1 font-semibold text-blue-500">
               <div>
                 <p class="text-sm">Chameli Devi Group of Institutions</p>
               </div>
               <div>
-                <p class="text-sm text-right">2012</p>
+                <p class="text-sm">2012</p>
               </div>
             </div>
-            <div class="grid grid-flow-row grid-cols-2 mt-1 font-semibold text-blue-500 items-center">
+            <div class="mt-1 font-semibold text-blue-500">
               <div>
                 <p class="text-sm">B.E. - Computer Science and Engineering</p>
               </div>
               <div>
-                <p class="text-sm text-right">CGPA 7.0</p>
+                <p class="text-sm">CGPA 7.0</p>
               </div>
             </div>
             <div>
-              <p class="text-sm text-justify">Indore, Madhya Pradesh, India</p>
+              <p class="text-sm">Indore, Madhya Pradesh, India</p>
             </div>
           </div>
         </div>
@@ -240,6 +240,6 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "ResumeComponent",
 };
 </script>
