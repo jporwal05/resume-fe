@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test": "jest --watch",
-    "dockerize": "docker build -t resume-fe ."
+    "dockerize": "docker buildx build --platform linux/amd64 -t resume-fe ."
   },
   "dependencies": {
     "core-js": "^3.8.3",

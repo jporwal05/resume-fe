@@ -1,10 +1,10 @@
 <template>
   <div class="m-6 font-mono flex flex-col items-center">
-    <div class="m-4">
-      <p class="border border-blue-500 rounded px-2 animate-pulse">This website is built using Vue.js and tailwindcss</p>
+    <div class="m-4 text-center">
+      <p class="border border-blue-500 rounded px-2 animate-pulse">This website is built using Vue.js and tailwindcss, hosted on AWS EC2</p>
     </div>
     <div class="max-w-4xl">
-      <div class="rounded overflow-hidden shadow-lg border-blue-500 border p-4 bg-orange-50 m-4">
+      <div class="rounded overflow-hidden shadow-lg border-blue-500 border p-4 bg-orange-50 my-4">
         <div class="flex flex-col items-center text-center">
           <p>
             <img
@@ -38,10 +38,10 @@
           <p class="text-sm font-semibold">+91-8698033662</p>
         </div>
 
-        <div class="flex flex-row justify-center flex-wrap text-center">
-          <p class="text-sm font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150 animate-bounce">Remote</p>
+        <div class="flex flex-row justify-center flex-wrap text-center mt-4">
+          <p class="text-sm font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150">Remote</p>
           <p class="text-sm font-semibold">&nbsp;or&nbsp;</p>
-          <p class="text-sm font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150 animate-bounce">Indore, India</p>
+          <p class="text-sm font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150">Indore, India</p>
           <p class="text-sm font-semibold">&nbsp;only&nbsp;</p>
         </div>
 
@@ -232,6 +232,11 @@
         <p class="text-4xl font-bold">Communication</p>
         <p class="text-lg text-justify mt-4">I can deliver crisp and clear presentations; may it be design proposals or solution proposals. I like to
           document as much as possible so that it is easy to share knowledge, do root cause analysis or back track.</p>
+      </div>
+
+      <div class="flex flex-col items-center text-center mt-10">
+        <p class="text-4xl font-bold">Currently Learning</p>
+        <p class="text-lg text-justify mt-4">Vue.js, tailwindcss, go and pursuing AWS Developer Associate Certification(26th April, 2023)</p>
       </div>
 
     </div>
