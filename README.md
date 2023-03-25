@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Creates a docker image
+```
+npm run dockerize
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
