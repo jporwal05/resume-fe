@@ -246,5 +246,8 @@
 <script>
 export default {
   name: "ResumeComponent",
+  mounted() {
+    this.$ga.page("/");
+  },
 };
 </script>
