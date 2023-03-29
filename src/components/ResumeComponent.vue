@@ -246,5 +246,14 @@
 <script>
 export default {
   name: "ResumeComponent",
+  mounted() {
+    // Add Google Analytics tracking code
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-PP9S90TFH9");
+  },
 };
 </script>
