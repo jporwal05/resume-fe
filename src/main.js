@@ -1,7 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './assets/tailwind.css'
-import VueAnalytics from 'vue-analytics'
+import VueGtag from "vue-gtag";
 
-const app = createApp(App).mount('#app')
-app.use(VueAnalytics, { id: 'G-PP9S90TFH9' })
+createApp(App).use(VueGtag, {
+    config: { id: "G-PP9S90TFH9" }
+}).mount("#app");
