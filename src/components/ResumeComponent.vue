@@ -247,7 +247,11 @@
 export default {
   name: "ResumeComponent",
   mounted() {
-    this.$ga.page("/");
+    this.$gtag.pageview({
+      page_title: "Jayant Porwal - Java",
+      page_location: "http://jpswcons.in",
+      page_path: "/",
+    });
   },
 };
 </script>
