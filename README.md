@@ -37,3 +37,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### For running
+```
+docker pull jporwal05/resume-fe:1.0.0
+```
+```
+docker run -p 80:3000 jporwal05/resume-fe:1.0.0
+```

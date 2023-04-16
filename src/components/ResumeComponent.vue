@@ -16,6 +16,10 @@
           </p>
           <h1 class="text-6xl font-extrabold">Jayant Porwal</h1>
           <h4 class="mt-4 text-lg font-semibold">Sr. Consultant, Developer at ThoughtWorks</h4>
+          <div class="flex flex-row justify-center flex-wrap text-center mt-4">
+            <h5 class="font-semibold">Experience:&nbsp;</h5>
+            <h5 class="font-semibold border border-blue-500 rounded px-2 hover:bg-blue-300 transition delay-150">{{ experience }}</h5>
+          </div>
         </div>
         <hr class="m-4 border-1 border-blue-500">
         <div class="flex flex-row justify-center flex-wrap text-center">
@@ -70,7 +74,7 @@
 
       <div class="flex flex-col items-center text-center mt-10">
         <p class="text-4xl font-bold text-center">Professional Summary</p>
-        <p class="text-lg text-justify mt-4">Backend Java developer at core who has 10+ years of industry experience in developing standalone
+        <p class="text-lg text-justify mt-4">Backend Java developer having experience in developing standalone
           applications as well as production ready enterprise applications to meet the business and client needs
           while keeping sense of latest technologies and DevOps methodologies. Someone who is not restricted
           by technology and open to learning any modern technology that adds value. Shares knowledge among
@@ -246,6 +250,39 @@
 <script>
 export default {
   name: "ResumeComponent",
+  data() {
+    return {
+      startDate: new Date("2012-08-01"), // Start date as a Date object
+    };
+  },
+  computed: {
+    experience() {
+      // Current date as a Date object (defaults to current date)
+      var endDate = new Date();
+
+      // Calculate the difference in years and months
+      var years = endDate.getFullYear() - this.startDate.getFullYear();
+      var months = endDate.getMonth() - this.startDate.getMonth();
+      if (months < 0) {
+        years--;
+        months += 12;
+      }
+
+      // Format the result string
+      var result = "";
+      if (years > 0) {
+        result += years + " year" + (years > 1 ? "s" : "");
+      }
+      if (years > 0 && months > 0) {
+        result += " and ";
+      }
+      if (months > 0) {
+        result += months + " month" + (months > 1 ? "s" : "");
+      }
+
+      return result;
+    },
+  },
   mounted() {
     this.$gtag.pageview({
       page_title: "Jayant Porwal - Java",
